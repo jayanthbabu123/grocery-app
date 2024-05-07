@@ -26,6 +26,12 @@ const Header = () => {
                 Dashboard
               </Link>
             </li>
+            <li>
+              {/* cart */}
+              <Link className="nav-link" to="/cart">
+               <i className="fa fa-shopping-cart"></i> Cart
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/login">
                 Login
